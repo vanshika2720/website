@@ -92,6 +92,7 @@ const config = {
             label: "Documentation",
           },
           { to: "/blog", label: "Blog", position: "left" },
+          { to: "/dashboard", label: "Dashboard", position: "left" },
           {
             href: "https://github.com/kmesh-net/kmesh/releases",
             label: "Downloads",
@@ -152,11 +153,11 @@ const config = {
     [
       "docusaurus-lunr-search",
       {
-        languages: ["en",'zh'],
+        languages: ["en", "zh"],
         indexDocs: true,
         indexBlog: true,
         indexPages: false,
-      }
+      },
     ],
   ],
 };
